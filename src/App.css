@@ -1,0 +1,85 @@
+.handleclosj {
+  width: 60px !important;
+  height: 60px !important;
+  font-size: 24px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  margin: auto !important;
+  margin: 10px !important;
+  outline: none !important;
+  border-radius: 50% !important;
+}
+.custom-outline:focus {
+  outline-color: #4b89c8 !important;
+  outline-style: solid !important;
+  outline-width: 1px !important;
+}
+
+button.react-international-phone-country-selector-button {
+  border: none !important;
+  outline: none !important;
+  background-color: white !important;
+  height: 3.2rem !important;
+  padding: 0 1.2rem !important;
+  border-radius: 0.75rem !important;
+}
+
+input.react-international-phone-input {
+  width: 100% !important;
+  border: none !important;
+  background-color: transparent !important;
+  outline: none !important;
+  --tw-ring-color: transparent !important;
+  height: 3.2rem !important;
+  margin-left: 0.1rem !important;
+}
+
+button.react-international-phone-country-selector-button:focus {
+  border: 1px solid #4b89c8 !important;
+  border-radius: 0.75rem !important;
+  padding: 0 1rem !important;
+}
+
+input.react-international-phone-input:focus {
+  width: 100% !important;
+  border: 1px solid #4b89c8 !important;
+  border-radius: 0.75rem !important;
+  margin-left: 0.1rem !important;
+  background-color: transparent !important;
+  outline: none !important;
+  --tw-ring-color: transparent !important;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  width: 20px !important;
+  height: 18px !important;
+  background: url("/src/assets/images/calander_icon.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+.multi-select-dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border: 1px solid #ccc;
+  background: white;
+  z-index: 10;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropdown-menu label {
+  display: block;
+  padding: 8px 10px;
+}
+
+.dropdown-menu input {
+  margin-right: 15px;
+}
